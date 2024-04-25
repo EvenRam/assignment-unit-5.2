@@ -9,10 +9,16 @@
   - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) */
 
   header {
+    text-align: center;
     background-color: darkcyan;    
     color: rgb(198, 195, 202)
+
   }
   
-  main{
+  body{
     background-color: lightgrey;
+    background-image: url('./record.png');
+    background-repeat: repeat repeat;
+    margin: 0;
+    padding: 1em;
   }
